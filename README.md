@@ -34,7 +34,7 @@ rs.set(5, 8, False)
 # Invert a range.
 rs.invert_range(3, float('inf'))
 
-# Verbalize resulting range.
+# Verbalize resulting range set.
 print(rs.get_bit_string(-5, 15, chars=['-', 'x']))
 ```
 
