@@ -1,0 +1,25 @@
+
+# Add new range before the first existing one.
+# ---x-x
+# ^^
+3 3 4 5
+0 1
+
+# Add new range after the last existing one.
+# -x-x---
+#      ^^
+4 0 1 2 3
+4 5
+
+# Add a (-inf, finite) range that ends just before an existing range.
+# ---x-x
+# ^ ^
+3 3 4 5
+-99 2
+
+# Add a (-inf, finite) range that ends just after an existing range.
+# ---xxx---
+# ^  ^
+#    0  1  2
+2 3 6
+-99 3

@@ -1,4 +1,7 @@
 
+import bisect
+
+
 class RangeSet(object):
     '''A set of finite and infinite ranges. Points of ranges are
        required to support the less-than ('<') and

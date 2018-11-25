@@ -1,0 +1,7 @@
+.eggs
+__pycache__
+dist
+tests/__pycache__
+tests/*.pyc
+cherries.egg-info
+*.pyc

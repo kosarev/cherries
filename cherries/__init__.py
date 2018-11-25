@@ -1,2 +1,2 @@
 
-from range_set import RangeSet
+from cherries.range_set import RangeSet
