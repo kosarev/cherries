@@ -74,8 +74,8 @@ Output:
 
   Within specified range generates a sequence of sub-ranges so
   that all points within each sub-range have the same value.
-  The sub-ranges are represented as tuples of the form (start,
-  end, value).
+  The sub-ranges are represented as tuples of the form
+  `(start, end, value)`.
   Sub-ranges come in order, beginning from one with the least
   start point.
 
